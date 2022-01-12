@@ -36,7 +36,7 @@
         </nav>
         <!-- Header-->
         <header class="bg-light py-5">
-            <div class="container px-3">
+            <div class="container px-3 section">
                 <div class="row gx-5 align-items-center justify-content-center">
                     <div class="col-lg-8 col-xl-7 col-xxl-6">
                         <div class="my-5 text-center text-xl-start">
@@ -46,10 +46,13 @@
                                 <a class="btn btn-danger btn-lg px-4 me-sm-3" href="#features">Get Started</a>
                                 <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
                             </div>
+                            
                         </div>
+                     
                     </div>
                     <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{url('assets/logo.png')}}" alt="..." /></div>
                 </div>
+
             </div>
         </header>
         <!-- Features section-->
@@ -151,7 +154,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!-- Call to action-->
                 <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
@@ -192,7 +195,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="{{url('js/scripts.js')}}"></script>
 </body>
 
 </html>
